@@ -1,0 +1,102 @@
+---
+import astroLogo from '../assets/astro.svg';
+import background from '../assets/background.svg';
+import "../styles/global.css"
+import { Image } from 'astro:assets';
+import gmailImg from '../image/gmail.png'
+import linkedInImg from '../image/linkedin.png'
+import githubImg from '../image/github.png'
+import cvImg from '../image/cv.png'
+import javaScriptImg from '../image/java-script.png'
+import cSharpImg from '../image/csharp.png'
+import pythonImg from '../image/python.png'
+import linuxImg from '../image/linux.png'
+import dockerImg from '../image/docker.png'
+import gitImg from '../image/git.png'
+import mySqlImg from '../image/mysql.png'
+import nodeImg from '../image/node.png'
+import typeScriptImg from '../image/typescript.png'
+import reactImg from '../image/react.png'
+import securityImg from '../image/security.png'
+---
+
+<header>
+	<div class="flex justify-center items-center font-mono mt-10">
+	  <div class="bg-neutral-800 w-2xl h-75 rounded-3xl">
+		<div class="flex justify-start items-center">
+			<div class="bg-red-500 w-4 h-4 flex m-6 rounded-2xl"></div>
+			<div class="bg-yellow-300 w-4 h-4 flex rounded-2xl"></div>
+			<div class="bg-green-500 w-4 h-4 flex m-6 rounded-2xl"></div>
+		</div>
+		<div class="flex flex-col justify-start items-start ml-5">
+			<h3 class="text-1xl text-green-500">$ whoaim</h3>
+			<h1 class="text-2xl text-white">Bruno *****</h1>
+			<p class="text-1xl text-gray-400 mt-1">Backend developer</p>
+			<h3 class="text-1xl text-green-500 mt-5">$ about me</h3>
+			<p class="text-1xl text-gray-400 mt-1">Soy Técnico en programación. Recibido recientemente en la Universidad Técnologica Nacional (UTN). Especializado en el area de backend. Y profesionalizandome en automatización y DevOps.</p>
+		</div>
+	  </div>
+	</div>
+</header>
+<section class="m-7">
+	<div class="flex justify-center items-center">
+		<div class="bg-green-400 rounded-2xl border-2 w-20 h-15 items-center flex justify-center mr-2">
+			<Image src={cvImg} alt="Imagen de CV" width="50px" height="50px"/>
+		</div>
+		<div class="bg-green-400 rounded-2xl border-2 w-20 h-15 items-center flex justify-center mr-2">
+			<Image src={gmailImg} alt="Imagen de Gmail" width="50px" height="50px"/>
+		</div>
+		<div class="bg-green-400 rounded-2xl border-2 w-20 h-15 items-center flex justify-center mr-2">
+			<Image src={linkedInImg} alt="Imagen de LinkedIn" width="50px" height="50px"/>
+		</div>
+		<div class="bg-green-400 rounded-2xl border-2 w-20 h-15 items-center flex justify-center mr-2">
+			<Image src={githubImg} alt="Imagen de Github" width="50px" height="50px"/>
+		</div>
+	</div>
+	<div>
+		<h1 class="text-black text-3xl flex justify-center items-center m-10">Tencologías</h1>
+			<div class="flex justify-center items-center">
+			<div class="bg-green-400 rounded-2xl border-2 w-20 h-15 items-center flex justify-center mr-2">
+				<Image src={cSharpImg} alt="Imagen de Csharp" width="50px" height="50px"/>
+			</div>
+			<div class="bg-green-400 rounded-2xl border-2 w-20 h-15 items-center flex justify-center mr-2">
+				<Image src={javaScriptImg} alt="Imagen de JavaScript" width="50px" height="50px"/>
+			</div>
+			<div class="bg-green-400 rounded-2xl border-2 w-20 h-15 items-center flex justify-center mr-2">
+				<Image src={pythonImg} alt="Imagen de Python" width="50px" height="50px"/>
+			</div>
+			<div class="bg-green-400 rounded-2xl border-2 w-20 h-15 items-center flex justify-center mr-2">
+				<Image src={nodeImg} alt="Imagen de Node" width="50px" height="50px"/>
+			</div>
+			<div class="bg-green-400 rounded-2xl border-2 w-20 h-15 items-center flex justify-center mr-2">
+				<Image src={typeScriptImg} alt="Imagen de Typescript" width="50px" height="50px"/>
+			</div>
+			<div class="bg-green-400 rounded-2xl border-2 w-20 h-15 items-center flex justify-center mr-2">
+				<Image src={mySqlImg} alt="Imagen de MySql" width="50px" height="50px"/>
+			</div>
+			<div class="bg-green-400 rounded-2xl border-2 w-20 h-15 items-center flex justify-center mr-2">
+				<Image src={reactImg} alt="Imagen de React" width="50px" height="50px"/>
+			</div>
+			<div class="bg-green-400 rounded-2xl border-2 w-20 h-15 items-center flex justify-center mr-2">
+				<Image src={gitImg} alt="Imagen de Git" width="50px" height="50px"/>
+			</div>
+			<div class="bg-green-400 rounded-2xl border-2 w-20 h-15 items-center flex justify-center mr-2">
+				<Image src={linuxImg} alt="Imagen de Linux" width="50px" height="50px"/>
+			</div>
+			<div class="bg-green-400 rounded-2xl border-2 w-20 h-15 items-center flex justify-center mr-2">
+				<Image src={dockerImg} alt="Imagen de Docker" width="50px" height="50px"/>
+			</div>
+		</div>
+		<div class="flex justify-center items-center flex-col">
+			<h1 class="text-black text-3xl m-10">Proyectos</h1>
+		</div>
+			<div class="flex justify-start items-center">
+				<div class="bg-green-400 rounded-2xl border-2 w-20 h-15 items-center flex justify-center mr-2">
+					<Image src={securityImg} alt="Imagen de Passowrd Magnament" width="50px" height="50px"/>
+				</div>
+				<h2 class="m-5 text-2xl flex justify-start">Password Magnament</h2>
+			</div>
+			<p class="">Es un app web dedicada a la seguridad de datos importantes de uso diario. Desde usuarios y contraseñas, hasta datos sensibles como tarjetas de credito/debito e archivos de cualquier tipo.</p>
+	</div>
+</div>
+</section>
