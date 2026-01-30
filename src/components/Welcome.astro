@@ -18,6 +18,7 @@ import nodeImg from '../image/node.png'
 import typeScriptImg from '../image/typescript.png'
 import reactImg from '../image/react.png'
 import securityImg from '../image/security.png'
+import djangoImg from '../image/django.png'
 ---
 
 <header>
@@ -41,62 +42,93 @@ import securityImg from '../image/security.png'
 <section class="m-7">
 	<div class="flex justify-center items-center">
 		<div class="bg-green-400 rounded-2xl border-2 w-20 h-15 items-center flex justify-center mr-2">
-			<Image src={cvImg} alt="Imagen de CV" width="50px" height="50px"/>
+			<Image src={cvImg} alt="Imagen de CV" width={50} height={50}/>
 		</div>
 		<div class="bg-green-400 rounded-2xl border-2 w-20 h-15 items-center flex justify-center mr-2">
-			<Image src={gmailImg} alt="Imagen de Gmail" width="50px" height="50px"/>
+			<Image src={gmailImg} alt="Imagen de Gmail" width={50} height={50}/>
 		</div>
 		<div class="bg-green-400 rounded-2xl border-2 w-20 h-15 items-center flex justify-center mr-2">
-			<Image src={linkedInImg} alt="Imagen de LinkedIn" width="50px" height="50px"/>
+			<Image src={linkedInImg} alt="Imagen de LinkedIn" width={50} height={50}/>
 		</div>
 		<div class="bg-green-400 rounded-2xl border-2 w-20 h-15 items-center flex justify-center mr-2">
-			<Image src={githubImg} alt="Imagen de Github" width="50px" height="50px"/>
+			<Image src={githubImg} alt="Imagen de Github" width={50} height={50}/>
 		</div>
 	</div>
 	<div>
 		<h1 class="text-black text-3xl flex justify-center items-center m-10">Tencologías</h1>
 			<div class="flex justify-center items-center">
 			<div class="bg-green-400 rounded-2xl border-2 w-20 h-15 items-center flex justify-center mr-2">
-				<Image src={cSharpImg} alt="Imagen de Csharp" width="50px" height="50px"/>
+				<Image src={cSharpImg} alt="Imagen de Csharp" width={50} height={50}/>
 			</div>
 			<div class="bg-green-400 rounded-2xl border-2 w-20 h-15 items-center flex justify-center mr-2">
-				<Image src={javaScriptImg} alt="Imagen de JavaScript" width="50px" height="50px"/>
+				<Image src={javaScriptImg} alt="Imagen de JavaScript" width={50} height={50}/>
 			</div>
 			<div class="bg-green-400 rounded-2xl border-2 w-20 h-15 items-center flex justify-center mr-2">
-				<Image src={pythonImg} alt="Imagen de Python" width="50px" height="50px"/>
+				<Image src={pythonImg} alt="Imagen de Python" width={50} height={50}/>
 			</div>
 			<div class="bg-green-400 rounded-2xl border-2 w-20 h-15 items-center flex justify-center mr-2">
-				<Image src={nodeImg} alt="Imagen de Node" width="50px" height="50px"/>
+				<Image src={nodeImg} alt="Imagen de Node" width={50} height={50}/>
 			</div>
 			<div class="bg-green-400 rounded-2xl border-2 w-20 h-15 items-center flex justify-center mr-2">
-				<Image src={typeScriptImg} alt="Imagen de Typescript" width="50px" height="50px"/>
+				<Image src={typeScriptImg} alt="Imagen de Typescript" width={50} height={50}/>
 			</div>
 			<div class="bg-green-400 rounded-2xl border-2 w-20 h-15 items-center flex justify-center mr-2">
-				<Image src={mySqlImg} alt="Imagen de MySql" width="50px" height="50px"/>
+				<Image src={mySqlImg} alt="Imagen de MySql" width={50} height={50}/>
 			</div>
 			<div class="bg-green-400 rounded-2xl border-2 w-20 h-15 items-center flex justify-center mr-2">
-				<Image src={reactImg} alt="Imagen de React" width="50px" height="50px"/>
+				<Image src={reactImg} alt="Imagen de React" width={50} height={50}/>
 			</div>
 			<div class="bg-green-400 rounded-2xl border-2 w-20 h-15 items-center flex justify-center mr-2">
-				<Image src={gitImg} alt="Imagen de Git" width="50px" height="50px"/>
+				<Image src={gitImg} alt="Imagen de Git" width={50} height={50}/>
 			</div>
 			<div class="bg-green-400 rounded-2xl border-2 w-20 h-15 items-center flex justify-center mr-2">
-				<Image src={linuxImg} alt="Imagen de Linux" width="50px" height="50px"/>
+				<Image src={linuxImg} alt="Imagen de Linux" width={50} height={50}/>
 			</div>
 			<div class="bg-green-400 rounded-2xl border-2 w-20 h-15 items-center flex justify-center mr-2">
-				<Image src={dockerImg} alt="Imagen de Docker" width="50px" height="50px"/>
+				<Image src={dockerImg} alt="Imagen de Docker" width={50} height={50}/>
 			</div>
 		</div>
-		<div class="flex justify-center items-center flex-col">
-			<h1 class="text-black text-3xl m-10">Proyectos</h1>
-		</div>
-			<div class="flex justify-start items-center">
-				<div class="bg-green-400 rounded-2xl border-2 w-20 h-15 items-center flex justify-center mr-2">
-					<Image src={securityImg} alt="Imagen de Passowrd Magnament" width="50px" height="50px"/>
-				</div>
-				<h2 class="m-5 text-2xl flex justify-start">Password Magnament</h2>
-			</div>
-			<p class="">Es un app web dedicada a la seguridad de datos importantes de uso diario. Desde usuarios y contraseñas, hasta datos sensibles como tarjetas de credito/debito e archivos de cualquier tipo.</p>
 	</div>
 </div>
+</section>
+<section>
+	<div>
+		<div class="flex justify-center items-center flex-col">
+  <h1 class="text-black text-3xl m-10">Proyectos</h1>
+</div>
+
+<div class="flex items-start max-w-4xl mx-auto">
+	<div class="bg-green-400 rounded-2xl border-2 w-25 h-15 mr-4 flex justify-center items-center">
+		<Image src={securityImg} alt="Imagen de Password Management" width="50" height="50" />
+		</div>
+			<div class="flex flex-col">
+				<h2 class="text-2xl">Password Management</h2>
+				<p>(2026)</p>
+				<p class="text-start max-w-2xl mt-2">
+				Es un app web dedicada a la seguridad de datos importantes de uso diario...
+				</p>
+				<div class="flex justify-start items-center">
+					<div class="bg-green-400 rounded-2xl border-2 w-25 h-10 items-center flex justify-center mr-2 mt-2">
+						<Image src={pythonImg} alt="Imagen de Python" width={30} height={30}/>
+						<p class="ml-1">Python</p>
+					</div>
+					<div class="bg-green-400 rounded-2xl border-2 w-25 h-10 items-center flex justify-center mr-2 mt-2">
+						<Image src={reactImg} alt="Imagen de React" width={30} height={30}/>
+						<p class="ml-1">React</p>
+					</div>
+					<div class="bg-green-400 rounded-2xl border-2 w-25 h-10 items-center flex justify-center mr-2 mt-2">
+						<Image src={mySqlImg} alt="Imagen de MySql" width={30} height={30}/>
+						<p class="ml-1">mySQL</p>
+					</div>
+					<div class="bg-green-400 rounded-2xl border-2 w-25 h-10 items-center flex justify-center mr-2 mt-2">
+						<Image src={djangoImg} alt="Imagen de Django" width={30} height={30}/>
+						<p class="ml-1">Django</p>
+					</div>
+				</div>
+			</div>
+			<div class="ml-30 border-2 w-2xl h-35 mt-5 flex justify-center items-center rounded-2xl">
+				<p>Proximamente...</p>
+			</div>
+		</div>
+	</div>
 </section>
