@@ -11,7 +11,7 @@ import reactImg from '../image/react.png'
 import securityImg from '../image/security.png'
 import djangoImg from '../image/django.png'
 import github2Img from '../image/github(2).png'
-import enlaceImg from '../image/enlace.png'
+import linkImg from '../image/enlace(1).png'
 import universidadImg from '../image/universidad.png'
 import ubicacionImg from '../image/local.png'
 import gmailImg2 from '../image/gmailbyw.png'
@@ -20,7 +20,17 @@ import githubImg2 from '../image/github(1).png'
 ---
 
 <header>
-	<div class="flex justify-center items-center font-mono mt-20 ">
+	<div class="mt-5 flex justify-end items-center mr-15">
+		<span class="text-white mr-3">ES</span>
+		<label class="relative inline-flex items-center cursor-pointer">
+		<input type="checkbox" class="sr-only peer" value="" />
+		<div
+			class="group peer bg-white rounded-full duration-300 w-14 h-6 ring-2 ring-green-500 after:duration-300 after:bg-green-500 peer-checked:after:bg-red-500 peer-checked:ring-red-500 after:rounded-full after:absolute after:h-4 after:w-4 after:top-1 after:left-1 after:flex after:justify-center after:items-center peer-checked:after:translate-x-8 peer-hover:after:scale-95"
+		></div>
+		</label>
+		<span class="text-white ml-3">EN</span>
+	</div>
+	<div class="flex justify-center items-center font-mono mt-8 ">
 	  <div class="bg-neutral-900 w-5xl h-132 rounded-2xl border border-neutral-700">
 		<div class="flex justify-start items-center">
 			<div class="bg-red-500 w-4 h-4 flex m-6 rounded-2xl"></div>
@@ -32,7 +42,7 @@ import githubImg2 from '../image/github(1).png'
 			<h1 class="text-5xl text-white font-bold">Bruno Massocco</h1>
 			<p class="text-2xl text-gray-400 mt-1">Backend developer</p>
 			<h3 class="text-2xl text-green-500 mt-5">$ about me</h3>
-			<p class="text-2xl text-gray-400 mt-1">Soy Técnico en programación. Recibido recientemente en la Universidad Técnologica Nacional (UTN). Especializado en el area de backend. Y profesionalizandome en automatización y DevOps.</p>
+			<p class="text-2xl text-gray-400 mt-1">Soy Técnico en programación. Recibido recientemente en la Universidad Técnologica Nacional (UTN). Especializado en el area de backend. Y profesionalizandome en automatización, DevOps y ciberseguridad.</p>
 			<h3 class="text-2xl text-green-500 mt-5">$ techs</h3>
 			<div class="flex flex-wrap gap-2 mt-2 max-w-full">
 				<div class="inline-flex bg-[#112319] opacity-95 justify-center items-center h-10 px-4 mt-3 rounded-sm border border-green-800 mr-2">
@@ -158,115 +168,329 @@ import githubImg2 from '../image/github(1).png'
 </section>
 <section>
 	<div>
-		<div class="flex justify-center items-center w-4xl ml-7 mt-10">
+		<div class="flex justify-center items-center ml-7 mt-10">
 			<h1 class="text-white text-3xl m-10 font-semibold">Proyectos</h1>
 		</div>
-	<div class="flex justify-center items-center font-mono mt-20 ">
-	  <div class="bg-neutral-900 w-5xl h-65 rounded-2xl border border-neutral-700">
-		<div class="flex flex-col justify-start items-start ml-5">
-			<h1 class="text-4xl text-white font-bold mt-5">Password Magnament</h1>
-			<p class="text-2xl text-gray-400 mt-1">Soy Técnico en programación. Recibido recientemente en la Universidad Técnologica Nacional (UTN). Especializado en el area de backend. Y profesionalizandome en automatización y DevOps.</p>
-			<div class="flex flex-wrap gap-2 mt-2 max-w-full">
-				<div class="inline-flex bg-[#112319] opacity-95 justify-center items-center h-10 px-4 mt-3 rounded-sm border border-green-800 mr-2">
-					<span class="text-[20px] text-white">Python</span>
-				</div>
-				<div class="inline-flex bg-[#112319] opacity-95 justify-center items-center h-10 px-4 mt-3 rounded-sm border border-green-800">
-					<span class="text-[20px] text-white">Django</span>
-				</div>
-				<div class="inline-flex bg-[#112319] opacity-95 justify-center items-center h-10 px-4 mt-3 rounded-sm border border-green-800 ml-2">
-					<span class="text-[20px] text-white">React</span>
-				</div>
-				<div class="inline-flex bg-[#112319] opacity-95 justify-center items-center h-10 px-4 mt-3 rounded-sm border border-green-800 ml-2">
-					<span class="text-[20px] text-white">Docker</span>
+
+		<div class="flex justify-center items-center font-mono">
+			
+  		<div class="bg-neutral-900 w-4xl h-50 rounded-2xl border border-neutral-700">
+
+			<div class="flex flex-col items-start ml-5">
+			<h1 class="text-3xl text-white font-bold mt-5">
+				Password Management <span class="text-base text-gray-400">(en proceso...)</span>
+			</h1>
+
+			<p class="text-lg text-gray-400 mt-1 max-w-3xl">
+				Software desarrollado para la encriptación y guardado de datos sensibles...
+			</p>
+
+				<div class="flex justify-between items-center gap-2 mt-3 w-215">
+					<span class="inline-flex h-10 px-4 items-center rounded-full border border-green-800 bg-[#112319]/95 text-white">
+						Python
+					</span>
+					<span class="inline-flex h-10 px-4 items-center rounded-full border border-green-800 bg-[#112319]/95 text-white">
+						Django
+					</span>
+					<span class="inline-flex h-10 px-4 items-center rounded-full border border-green-800 bg-[#112319]/95 text-white">
+						React
+					</span>
+					<span class="inline-flex h-10 px-4 items-center rounded-full border border-green-800 bg-[#112319]/95 text-white">
+						Docker
+					</span>
+
+					<div class="ml-auto flex gap-2">
+						<div class="h-10 w-10 flex items-center justify-center rounded-full border border-green-800 bg-[#112319]/95">
+							<Image src={githubImg2} alt="Github" width={22} height={22} />
+						</div>
+
+						<div class="h-10 w-10 flex items-center justify-center rounded-full border border-green-800 bg-[#112319]/95">
+							<Image src={linkImg} alt="Link" width={22} height={22} />
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-	  </div>
 	</div>
+</div>
+
+<div>
+		<div class="flex justify-center items-center font-mono">
+			
+  		<div class="bg-neutral-900 w-4xl h-65 rounded-2xl border border-neutral-700 mt-5">
+
+			<div class="flex flex-col items-start ml-5">
+			<h1 class="text-3xl text-white font-bold mt-5">
+				Conciesionario Web<span class="text-base text-gray-400 ml-2">(2025)</span>
+			</h1>
+
+			<p class="text-lg text-gray-400 mt-1 max-w-3xl">
+				Página web sobre conciensionaria de autos. Con funciones de crear publicación de venta y compra de autos, borrar publicacion.
+			</p>
+			<ul>
+				<li>
+					Metódos CRUDS.
+				</li>
+				<li>
+					Creación de API autos.
+				</li>
+				<li>
+					Creación de API usuarios.
+				</li>
+			</ul>
+
+				<div class="flex justify-between items-center gap-2 mt-3 w-215">
+					<span class="inline-flex h-10 px-4 items-center rounded-full border border-green-800 bg-[#112319]/95 text-white">
+						React
+					</span>
+					<span class="inline-flex h-10 px-4 items-center rounded-full border border-green-800 bg-[#112319]/95 text-white">
+						Nextjs
+					</span>
+					<span class="inline-flex h-10 px-4 items-center rounded-full border border-green-800 bg-[#112319]/95 text-white">
+						.NET
+					</span>
+					<span class="inline-flex h-10 px-4 items-center rounded-full border border-green-800 bg-[#112319]/95 text-white">
+						MySQL
+					</span>
+
+					<div class="ml-auto flex gap-2">
+						<div class="h-10 w-10 flex items-center justify-center rounded-full border border-green-800 bg-[#112319]/95">
+							<Image src={githubImg2} alt="Github" width={22} height={22} />
+						</div>
+
+						<div class="h-10 w-10 flex items-center justify-center rounded-full border border-green-800 bg-[#112319]/95">
+							<Image src={linkImg} alt="Link" width={22} height={22} />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div>
+		<div class="flex justify-center items-center font-mono">
+			
+  		<div class="bg-neutral-900 w-4xl h-65 rounded-2xl border border-neutral-700 mt-5">
+
+			<div class="flex flex-col items-start ml-5">
+			<h1 class="text-3xl text-white font-bold mt-5">
+				LimpEco<span class="text-base text-gray-400 ml-2">(2025)</span>
+			</h1>
+
+			<p class="text-lg text-gray-400 mt-1 max-w-3xl">
+				Página web sobre conciensionaria de autos. Con funciones de crear publicación de venta y compra de autos, borrar publicacion.
+			</p>
+			<ul>
+				<li>
+					Metódos CRUDS.
+				</li>
+				<li>
+					Creación de API autos.
+				</li>
+				<li>
+					Creación de API usuarios.
+				</li>
+			</ul>
+
+				<div class="flex justify-between items-center gap-2 mt-3 w-215">
+					<span class="inline-flex h-10 px-4 items-center rounded-full border border-green-800 bg-[#112319]/95 text-white">
+						React
+					</span>
+					<span class="inline-flex h-10 px-4 items-center rounded-full border border-green-800 bg-[#112319]/95 text-white">
+						Nextjs
+					</span>
+					<span class="inline-flex h-10 px-4 items-center rounded-full border border-green-800 bg-[#112319]/95 text-white">
+						.NET
+					</span>
+					<span class="inline-flex h-10 px-4 items-center rounded-full border border-green-800 bg-[#112319]/95 text-white">
+						MySQL
+					</span>
+
+					<div class="ml-auto flex gap-2">
+						<div class="h-10 w-10 flex items-center justify-center rounded-full border border-green-800 bg-[#112319]/95">
+							<Image src={githubImg2} alt="Github" width={22} height={22} />
+						</div>
+
+						<div class="h-10 w-10 flex items-center justify-center rounded-full border border-green-800 bg-[#112319]/95">
+							<Image src={linkImg} alt="Link" width={22} height={22} />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div>
+		<div class="flex justify-center items-center font-mono">
+			
+  		<div class="bg-neutral-900 w-4xl h-65 rounded-2xl border border-neutral-700 mt-5">
+
+			<div class="flex flex-col items-start ml-5">
+			<h1 class="text-3xl text-white font-bold mt-5">
+				Gestor de usuarios<span class="text-base text-gray-400 ml-2">(2025)</span>
+			</h1>
+
+			<p class="text-lg text-gray-400 mt-1 max-w-3xl">
+				Página web sobre conciensionaria de autos. Con funciones de crear publicación de venta y compra de autos, borrar publicacion.
+			</p>
+			<ul>
+				<li>
+					Metódos CRUDS.
+				</li>
+				<li>
+					Creación de API autos.
+				</li>
+				<li>
+					Creación de API usuarios.
+				</li>
+			</ul>
+
+				<div class="flex justify-between items-center gap-2 mt-3 w-215">
+					<span class="inline-flex h-10 px-4 items-center rounded-full border border-green-800 bg-[#112319]/95 text-white">
+						React
+					</span>
+					<span class="inline-flex h-10 px-4 items-center rounded-full border border-green-800 bg-[#112319]/95 text-white">
+						Nextjs
+					</span>
+					<span class="inline-flex h-10 px-4 items-center rounded-full border border-green-800 bg-[#112319]/95 text-white">
+						.NET
+					</span>
+					<span class="inline-flex h-10 px-4 items-center rounded-full border border-green-800 bg-[#112319]/95 text-white">
+						MySQL
+					</span>
+
+					<div class="ml-auto flex gap-2">
+						<div class="h-10 w-10 flex items-center justify-center rounded-full border border-green-800 bg-[#112319]/95">
+							<Image src={githubImg2} alt="Github" width={22} height={22} />
+						</div>
+
+						<div class="h-10 w-10 flex items-center justify-center rounded-full border border-green-800 bg-[#112319]/95">
+							<Image src={linkImg} alt="Link" width={22} height={22} />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
 </section>
+	<div>
+			<div class="flex justify-center items-center ml-7 mt-10">
+				<h1 class="text-white text-3xl m-10 font-semibold">Formación</h1>
+			</div>
+
+			<div class="flex justify-center items-center font-mono">
+				
+			<div class="bg-neutral-900 w-4xl h-50 rounded-2xl border border-neutral-700">
+
+				<div class="flex flex-col items-start ml-5">
+					<h1 class="text-3xl text-white font-bold mt-5">
+						UTN - Tecnicatura en Programación <span class="text-base text-gray-400">(2023-2025)</span>
+					</h1>
+
+					<p class="text-lg text-gray-400 mt-1 max-w-3xl">
+						Software desarrollado para la encriptación y guardado de datos sensibles...
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div>
+			<div class="flex justify-center items-center font-mono">
+				
+			<div class="bg-neutral-900 w-4xl h-50 rounded-2xl border border-neutral-700 mt-5">
+
+				<div class="flex flex-col items-start ml-5">
+					<h1 class="text-3xl text-white font-bold mt-5 wrap-break-word">
+						UTN.ba - Experto Universitario en Hacking <br>Ethico <span class="text-base text-gray-400">(en desarrollo...)</span>
+					</h1>
+
+					<p class="text-lg text-gray-400 mt-1 max-w-3xl">
+						Software desarrollado para la encriptación y guardado de datos sensibles...
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div>
+		<div class="flex justify-center items-center font-mono">
+				
+		<div class="bg-neutral-900 w-4xl h-50 rounded-2xl border border-neutral-700 mt-5">
+
+				<div class="flex flex-col items-start ml-5">
+					<h1 class="text-3xl text-white font-bold mt-5">
+						Harvard - CS50 <span class="text-base text-gray-400">(2026)</span>
+					</h1>
+
+					<p class="text-lg text-gray-400 mt-1 max-w-3xl">
+						Software desarrollado para la encriptación y guardado de datos sensibles...
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div>
+		<div class="flex justify-center items-center font-mono">
+				
+		<div class="bg-neutral-900 w-4xl h-50 rounded-2xl border border-neutral-700 mt-5">
+
+				<div class="flex flex-col items-start ml-5">
+					<h1 class="text-3xl text-white font-bold mt-5">
+						Udemy - Python TOTAL <span class="text-base text-gray-400">(2025)</span>
+					</h1>
+
+					<p class="text-lg text-gray-400 mt-1 max-w-3xl">
+						Software desarrollado para la encriptación y guardado de datos sensibles...
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div>
+		<div class="flex justify-center items-center font-mono">
+				
+		<div class="bg-neutral-900 w-4xl h-50 rounded-2xl border border-neutral-700 mt-5">
+
+				<div class="flex flex-col items-start ml-5">
+					<h1 class="text-3xl text-white font-bold mt-5">
+						TodoCode - Certificación de Base de Datos Relacionales <span class="text-base text-gray-400">(2024)</span>
+					</h1>
+
+					<p class="text-lg text-gray-400 mt-1 max-w-3xl">
+						Software desarrollado para la encriptación y guardado de datos sensibles...
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div>
+		<div class="flex justify-center items-center font-mono">
+				
+		<div class="bg-neutral-900 w-4xl h-50 rounded-2xl border border-neutral-700 mt-5">
+
+				<div class="flex flex-col items-start ml-5">
+					<h1 class="text-3xl text-white font-bold mt-5">
+						Academia Numen - Diplomatura en Desarrollo Web Full Stack <span class="text-base text-gray-400">(2024)</span>
+					</h1>
+
+					<p class="text-lg text-gray-400 mt-1 max-w-3xl">
+						Software desarrollado para la encriptación y guardado de datos sensibles...
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
 
 <section>
-	<div>
-		<div class="flex justify-center items-center w-4xl ml-7 mt-10">
-			<h1 class="text-white text-3xl m-10 font-semibold">Formación</h1>
-		</div>
-
-	<div class="flex items-start max-w-4xl mx-auto">
-		<div class="bg-green-400 rounded-2xl border-2 w-15 h-15 mr-4 flex justify-center items-center">
-			<Image src={universidadImg} alt="Imagen de Universidad" width="50" height="50" />
-			</div>
-				<div class="flex flex-col">
-					<h2 class="text-2xl text-white">Harvard - CS50</h2>
-					<p class="text-white">(2026)</p>
-					<p class="text-start max-w-2xl mt-2 text-white">
-					Es un app web dedicada a la seguridad de datos importantes de uso diario...
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
 	
-	<div class="flex items-start max-w-4xl mx-auto mt-10">
-		<div class="bg-green-400 rounded-2xl border-2 w-15 h-15 mr-4 flex justify-center items-center">
-			<Image src={universidadImg} alt="Imagen de Universidad" width="50" height="50" />
-			</div>
-				<div class="flex flex-col">
-					<h2 class="text-2xl text-white">Tecnicatura en Programación - UTN</h2>
-					<p class="text-white">(2023-2025)</p>
-					<p class="text-start max-w-2xl mt-2 text-white">
-					Es un app web dedicada a la seguridad de datos importantes de uso diario...
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	
-
-	<div class="flex items-start max-w-4xl mx-auto mt-10">
-		<div class="bg-green-400 rounded-2xl border-2 w-15 h-15 mr-4 flex justify-center items-center">
-			<Image src={universidadImg} alt="Imagen de Universidad" width="50" height="50" />
-			</div>
-				<div class="flex flex-col">
-					<h2 class="text-2xl text-white">Udemy - Python TOTAL</h2>
-					<p class="text-white">(2023-2025)</p>
-					<p class="text-start max-w-2xl mt-2 text-white">
-					Es un app web dedicada a la seguridad de datos importantes de uso diario...
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="flex items-start max-w-4xl mx-auto mt-10">
-		<div class="bg-green-400 rounded-2xl border-2 w-15 h-15 mr-4 flex justify-center items-center">
-			<Image src={universidadImg} alt="Imagen de Universidad" width="50" height="50" />
-			</div>
-				<div class="flex flex-col">
-					<h2 class="text-2xl text-white">Certificado en Introducción a Bases de Datos Relacionales </h2>
-					<p class="text-white">(2024)</p>
-					<p class="text-start max-w-2xl mt-2 text-white">
-					Certificado para conocer lo básico sobre base de datos
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="flex items-start max-w-4xl mx-auto mt-10">
-		<div class="bg-green-400 rounded-2xl border-2 w-15 h-15 mr-4 flex justify-center items-center">
-			<Image src={universidadImg} alt="Imagen de Universidad" width="50" height="50" />
-			</div>
-				<div class="flex flex-col">
-					<h2 class="text-2xl text-white">Academia Numen - Diplomatura en Desarrollo Web Full Stack</h2>
-					<p class="text-white">(2024)</p>
-					<p class="text-start max-w-2xl mt-2 text-white">
-					Diplomatura Full Stack donde desarrollamos desde páginas webs estaticas hasta apps webs funcionales. Trabajanado con tecnologías como HTML, CSS, Javascript, React, Nextjs, Bootstrap, Node, Express, MongoDB, entre otras.
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
 </section>
 <footer>
 	<hr class="text-white mt-10">
