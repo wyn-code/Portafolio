@@ -9,502 +9,358 @@ import linkedinImg2 from '../image/linkedin(1).png'
 import githubImg2 from '../image/github(1).png'
 ---
 
-<header>
-	<div class="mt-5 flex justify-end items-center mr-15">
-		<span class="text-white mr-3">ES</span>
-		<label class="relative inline-flex items-center cursor-pointer">
-		<input type="checkbox" class="sr-only peer" value="" />
-		<div
-			class="group peer bg-white rounded-full duration-300 w-14 h-6 ring-2 ring-green-500 after:duration-300 after:bg-green-500 peer-checked:after:bg-red-500 peer-checked:ring-red-500 after:rounded-full after:absolute after:h-4 after:w-4 after:top-1 after:left-1 after:flex after:justify-center after:items-center peer-checked:after:translate-x-8 peer-hover:after:scale-95"
-		></div>
-		</label>
-		<span class="text-white ml-3">EN</span>
-	</div>
-	<div class="flex justify-center items-center font-mono mt-8 ">
-	  <div class="bg-neutral-900 w-5xl h-132 rounded-2xl border border-neutral-700">
-		<div class="flex justify-start items-center">
-			<div class="bg-red-500 w-4 h-4 flex m-6 rounded-2xl"></div>
-			<div class="bg-yellow-300 w-4 h-4 flex rounded-2xl"></div>
-			<div class="bg-green-500 w-4 h-4 flex m-6 rounded-2xl"></div>
-		</div>
-		<div class="flex flex-col justify-start items-start ml-5">
-			<h3 class="text-2xl text-green-500">$ whoami</h3>
-			<h1 class="text-5xl text-white font-bold">Bruno Massocco</h1>
-			<p class="text-2xl text-gray-400 mt-1">Backend developer</p>
-			<h3 class="text-2xl text-green-500 mt-5">$ about me</h3>
-			<p class="text-2xl text-gray-400 mt-1">Soy Técnico en programación. Recibido recientemente en la Universidad Técnologica Nacional (UTN). Especializado en el area de backend. Y profesionalizandome en automatización, DevOps y ciberseguridad.</p>
-			<h3 class="text-2xl text-green-500 mt-5">$ techs</h3>
-			<div class="flex flex-wrap gap-2 mt-2 max-w-full">
-				<div class="inline-flex bg-[#112319] opacity-95 justify-center items-center h-10 px-4 mt-3 rounded-sm border border-green-800 mr-2">
-					<span class="text-[20px] text-white">Python</span>
-				</div>
-				<div class="inline-flex bg-[#112319] opacity-95 justify-center items-center h-10 px-4 mt-3 rounded-sm border border-green-800">
-					<span class="text-[20px] text-white">Node.js</span>
-				</div>
-				<div class="inline-flex bg-[#112319] opacity-95 justify-center items-center h-10 px-4 mt-3 rounded-sm border border-green-800 ml-2">
-					<span class="text-[20px] text-white">C#</span>
-				</div>
-				<div class="inline-flex bg-[#112319] opacity-95 justify-center items-center h-10 px-4 mt-3 rounded-sm border border-green-800 ml-2">
-					<span class="text-[20px] text-white">JavaScript</span>
-				</div>
-				<div class="inline-flex bg-[#112319] opacity-95 justify-center items-center h-10 px-4 mt-3 rounded-sm border border-green-800 ml-2">
-					<span class="text-[20px] text-white">Tailwind</span>
-				</div>
-				<div class="inline-flex bg-[#112319] opacity-95 justify-center items-center h-10 px-4 mt-3 rounded-sm border border-green-800 ml-2">
-					<span class="text-[20px] text-white">Docker</span>
-				</div>
-				<div class="inline-flex bg-[#112319] opacity-95 justify-center items-center h-10 px-4 mt-3 rounded-sm border border-green-800 ml-2">
-					<span class="text-[20px] text-white">Linux</span>
-				</div>
-				<div class="inline-flex bg-[#112319] opacity-95 justify-center items-center h-10 px-4 mt-3 rounded-sm border border-green-800 ml-2">
-					<span class="text-[20px] text-white">Bash</span>
-				</div>
-				<div class="inline-flex bg-[#112319] opacity-95 justify-center items-center h-10 px-4 mt-3 rounded-sm border border-green-800">
-					<span class="text-[20px] text-white">React</span>
-				</div>
-				<div class="inline-flex bg-[#112319] opacity-95 justify-center items-center h-10 px-4 mt-3 rounded-sm border border-green-800 ml-2">
-					<span class="text-[20px] text-white">.NET</span>
-				</div>
-				<div class="inline-flex bg-[#112319] opacity-95 justify-center items-center h-10 px-4 mt-3 rounded-sm border border-green-800 ml-2">
-					<span class="text-[20px] text-white">SQL</span>
-				</div>
-			</div>
-		</div>
-	  </div>
-	</div>
+<header class="px-4 sm:px-6 lg:px-8 mt-10">
+  <div class="max-w-6xl mx-auto bg-neutral-900 rounded-2xl border border-neutral-700 font-mono">
+
+    <!-- Window dots -->
+    <div class="flex items-center gap-2 p-4">
+      <div class="bg-red-500 w-3 h-3 rounded-full"></div>
+      <div class="bg-yellow-400 w-3 h-3 rounded-full"></div>
+      <div class="bg-green-500 w-3 h-3 rounded-full"></div>
+    </div>
+
+    <div class="px-6 pb-8">
+      <h3 class="text-lg sm:text-2xl text-green-500">$ whoami</h3>
+      <h1 class="text-3xl sm:text-5xl text-white font-bold">Bruno Massocco</h1>
+      <p class="text-lg sm:text-2xl text-gray-400 mt-1">
+        Backend developer
+      </p>
+
+      <h3 class="text-lg sm:text-2xl text-green-500 mt-6">$ about me</h3>
+      <p class="text-base sm:text-xl text-gray-400 mt-2 leading-relaxed">
+        Soy Técnico en programación recibido en la UTN. Especializado en backend,
+        profesionalizándome en automatización, DevOps y ciberseguridad.
+      </p>
+
+      <h3 class="text-lg sm:text-2xl text-green-500 mt-6">$ techs</h3>
+
+      <div class="flex flex-wrap gap-3 mt-4">
+        {["Python","Node.js","C#","JavaScript","Tailwind","Docker","Linux","Bash","React",".NET","SQL"].map(tech => (
+          <span class="bg-[#112319]/95 border border-green-800 px-4 py-2 rounded-md text-white text-sm sm:text-base">
+            {tech}
+          </span>
+        ))}
+      </div>
+    </div>
+  </div>
 </header>
-<section class="m-7">
-	<div class="flex justify-center items-center">
-		<div class="
-			bg-[#112319]
-			opacity-95
-			border-green-400
-			border
-			rounded-2xl
-			w-20 h-15
-			flex justify-center items-center
-			transition-transform
-			group-hover:scale-90
-			hover:scale-125
-			hover:shadow-2xl
-			duration-500 ease-out
-			group-hover:opacity-70 hover:opacity-100
-			hover:z-10
-			">
-			<a href="../../public/docs/CV.pdf" target="_blank" rel="noopener noreferrer">
-				<Image src={cvImg} alt="CV" width={50} height={50} />
-			</a>
-		</div>
-		<div class="
-			bg-[#112319]
-			opacity-95
-			border-green-400
-			border rounded-2xl 
-			w-20 h-15
-			m-5
-			flex justify-center items-center
-			transition-transform
-			group-hover:scale-90
-			hover:scale-125
-			hover:shadow-2xl
-			duration-500 ease-out
-			group-hover:opacity-70 hover:opacity-100
-			hover:z-10
-			">
-			<a href="https://mail.google.com/mail/?view=cm&to=brunoo6.massocco@gmail.com" target="_blank">
-				<Image src={gmailImg2} alt="Imagen de Gmail" width={50} height={50}/>
-			</a>
-		</div>
-		<div class="
-			bg-[#112319]
-			opacity-95
-			border-green-400
-			border rounded-2xl 
-			w-20 h-15
-			flex justify-center items-center
-			transition-transform
-			group-hover:scale-90
-			hover:scale-125
-			hover:shadow-2xl
-			duration-500 ease-out
-			group-hover:opacity-70 hover:opacity-100
-			hover:z-10
-			">
-			<a href="https://www.linkedin.com/in/bruno-massocco-49b113307/" target="_blank">
-				<Image src={linkedinImg2} alt="Imagen de LinkedIn" width={50} height={50}/>
-			</a>
-		</div>
-		<div class="
-			bg-[#112319]
-			opacity-95
-			border-green-400
-			border rounded-2xl 
-			w-20 h-15 
-			m-5
-			flex justify-center items-center
-			transition-transform
-			group-hover:scale-90
-			hover:scale-125
-			hover:shadow-2xl
-			duration-500 ease-out
-			group-hover:opacity-70 hover:opacity-100
-			hover:z-10
-			">
-			<a href="https://github.com/wyn-code" target="_blank" rel="noopener noreferrer">
-				<Image src={githubImg2} alt="Imagen de Github" width={50} height={50}/>
-			</a>
-		</div>
-	</div>
+
+<section class="px-4 sm:px-6 lg:px-8 mt-10">
+  <div class="max-w-4xl mx-auto flex flex-wrap justify-center gap-6">
+
+    <a href="/docs/CV.pdf" target="_blank"
+       class="bg-[#112319] border border-green-400 rounded-2xl p-5
+              transition hover:scale-110 duration-300">
+      <Image src={cvImg} alt="CV" width={40} height={40} />
+    </a>
+
+    <a href="https://mail.google.com/mail/?view=cm&to=brunoo6.massocco@gmail.com"
+       target="_blank"
+       class="bg-[#112319] border border-green-400 rounded-2xl p-5
+              transition hover:scale-110 duration-300">
+      <Image src={gmailImg2} alt="Gmail" width={40} height={40}/>
+    </a>
+
+    <a href="https://www.linkedin.com/in/bruno-massocco-49b113307/"
+       target="_blank"
+       class="bg-[#112319] border border-green-400 rounded-2xl p-5
+              transition hover:scale-110 duration-300">
+      <Image src={linkedinImg2} alt="LinkedIn" width={40} height={40}/>
+    </a>
+
+    <a href="https://github.com/wyn-code"
+       target="_blank"
+       class="bg-[#112319] border border-green-400 rounded-2xl p-5
+              transition hover:scale-110 duration-300">
+      <Image src={githubImg2} alt="Github" width={40} height={40}/>
+    </a>
+
+  </div>
 </section>
-<section>
-	<div>
-		<div class="flex justify-center items-center ml-7 mt-10">
-			<h1 class="text-white text-3xl m-10 font-semibold">Proyectos</h1>
-		</div>
 
-		<div class="flex justify-center items-center font-mono">
-			
-  		<div class="bg-neutral-900 w-4xl h-90 rounded-2xl border border-neutral-700">
+<section class="px-4 sm:px-6 lg:px-8 mt-16">
+  <div class="max-w-6xl mx-auto">
 
-			<div class="flex flex-col items-start ml-5">
-			<h1 class="text-3xl text-white font-bold mt-5">
-				Password Management <span class="text-base text-gray-400">(en proceso...)</span>
-			</h1>
+    <h2 class="text-white text-2xl sm:text-3xl font-semibold mb-10 text-center">
+      Proyectos
+    </h2>
 
-			<p class="text-lg text-gray-400 mt-1 max-w-3xl">
-				Aplicación de gestión segura de datos sensibles, diseñada para almacenar información de uso diario como contraseñas, tarjetas de crédito y archivos privados.
-				La app prioriza la seguridad mediante autenticación de dos factores (2FA), generación de contraseñas seguras y protección de datos sensibles.
-				Desde el backend implementa operaciones CRUD completas, control de acceso, validaciones, cifrado de información y endpoints adicionales orientados a seguridad y escalabilidad.
-			</p>
+    <div class="space-y-8">
 
-				<div class="flex justify-between items-center gap-2 mt-3 w-215">
-					<span class="inline-flex h-10 px-4 items-center rounded-full border border-green-800 bg-[#112319]/95 text-white">
-						Python
-					</span>
-					<span class="inline-flex h-10 px-4 items-center rounded-full border border-green-800 bg-[#112319]/95 text-white">
-						Django
-					</span>
-					<span class="inline-flex h-10 px-4 items-center rounded-full border border-green-800 bg-[#112319]/95 text-white">
-						React
-					</span>
-					<span class="inline-flex h-10 px-4 items-center rounded-full border border-green-800 bg-[#112319]/95 text-white">
-						Docker
-					</span>
+      <div class="bg-neutral-900 rounded-2xl border border-neutral-700 p-6 font-mono">
 
-					<div class="ml-auto flex gap-2">
-						<div class="h-10 w-10 flex items-center justify-center rounded-full border border-green-800 bg-[#112319]/95">
-							<Image src={githubImg2} alt="Github" width={22} height={22} />
-						</div>
+        <h3 class="text-xl sm:text-2xl text-white font-bold">
+          Password Management
+          <span class="text-sm text-gray-400">(en proceso)</span>
+        </h3>
 
-						<div class="h-10 w-10 flex items-center justify-center rounded-full border border-green-800 bg-[#112319]/95">
-							<Image src={linkImg} alt="Link" width={22} height={22} />
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+        <p class="text-gray-400 mt-3 text-sm sm:text-base leading-relaxed">
+          Aplicación de gestión segura de datos sensibles con 2FA,
+          generación de contraseñas, cifrado y arquitectura escalable.
+        </p>
+
+        <div class="mt-5 flex flex-col sm:flex-row sm:items-center gap-4">
+
+
+  <div class="flex flex-wrap gap-3">
+    {["Python","Django","React","Docker"].map(t => (
+      <span class="px-3 py-1 rounded-full text-sm bg-[#112319]/95 border border-green-800 text-white">
+        {t}
+      </span>
+    ))}
+  </div>
+
+  <div class="flex gap-3 sm:ml-auto">
+
+    <a
+       class="h-10 w-10 flex items-center justify-center rounded-full
+              border border-green-800 bg-[#112319]/95
+              transition hover:scale-110 duration-300 opacity-60">
+      <Image src={githubImg2} alt="Github" width={20} height={20} />
+    </a>
+
+    <a 
+       target="_blank"
+       class="h-10 w-10 flex items-center justify-center rounded-full
+              border border-green-800 bg-[#112319]/95
+              transition hover:scale-110 duration-300 opacity-60">
+      <Image src={linkImg} alt="Link" width={20} height={20} />
+    </a>
+
+  </div>
+
 </div>
+      </div>
 
-<div>
-		<div class="flex justify-center items-center font-mono">
-			
-  		<div class="bg-neutral-900 w-4xl h-75 rounded-2xl border border-neutral-700 mt-5">
+	 <div class="max-w-6xl mx-auto">
+  <div class="space-y-8">
 
-			<div class="flex flex-col items-start ml-5">
-			<h1 class="text-3xl text-white font-bold mt-5">
-				Conciesionario Web<span class="text-base text-gray-400 ml-2">(2025)</span>
-			</h1>
+    <div class="bg-neutral-900 rounded-2xl border border-neutral-700 p-6 font-mono">
 
-			<p class="text-lg text-gray-400 mt-1 max-w-3xl">
-				Página web de una concesionaria de autos, desarrollada de forma grupal como proyecto académico, que permite la gestión de vehículos y usuarios mediante una API REST.
-				Desde el backend se implementaron operaciones CRUD para autos y usuarios, aplicando patrones de diseño como MVC, inyección de dependencias y DTOs, con el objetivo de mantener una arquitectura modular, escalable y fácil de mantener.
-			</p>
+      <h3 class="text-xl sm:text-2xl text-white font-bold">
+        Concesionario Web
+        <span class="text-sm text-gray-400">(2025)</span>
+      </h3>
 
-				<div class="flex justify-between items-center gap-2 mt-3 w-215">
-					<span class="inline-flex h-10 px-4 items-center rounded-full border border-green-800 bg-[#112319]/95 text-white">
-						React
-					</span>
-					<span class="inline-flex h-10 px-4 items-center rounded-full border border-green-800 bg-[#112319]/95 text-white">
-						Nextjs
-					</span>
-					<span class="inline-flex h-10 px-4 items-center rounded-full border border-green-800 bg-[#112319]/95 text-white">
-						.NET
-					</span>
-					<span class="inline-flex h-10 px-4 items-center rounded-full border border-green-800 bg-[#112319]/95 text-white">
-						MySQL
-					</span>
+      <p class="text-gray-400 mt-3 text-sm sm:text-base leading-relaxed">
+        Página web de una concesionaria de autos, desarrollada de forma grupal como proyecto académico, que permite la gestión de vehículos y usuarios mediante una API REST.
+		Desde el backend se implementaron operaciones CRUD para autos y usuarios, aplicando patrones de diseño como MVC, inyección de dependencias y DTOs, con el objetivo de mantener una arquitectura modular, escalable y fácil de mantener.
+      </p>
 
-					<div class="ml-auto flex gap-2">
-						<div class="h-10 w-10 flex items-center justify-center rounded-full border border-green-800 bg-[#112319]/95">
-							<Image src={githubImg2} alt="Github" width={22} height={22} />
-						</div>
+      <!-- Techs + Iconos -->
+      <div class="mt-5 flex flex-col sm:flex-row sm:items-center gap-4">
 
-						<div class="h-10 w-10 flex items-center justify-center rounded-full border border-green-800 bg-[#112319]/95">
-							<Image src={linkImg} alt="Link" width={22} height={22} />
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+        <div class="flex flex-wrap gap-3">
+          {["React","Nextjs",".NET","MySQL"].map(t => (
+            <span class="px-3 py-1 rounded-full text-sm bg-[#112319]/95 border border-green-800 text-white">
+              {t}
+            </span>
+          ))}
+        </div>
 
-<div>
-		<div class="flex justify-center items-center font-mono">
-			
-  		<div class="bg-neutral-900 w-4xl h-70 rounded-2xl border border-neutral-700 mt-5">
+        <div class="flex gap-3 sm:ml-auto">
 
-			<div class="flex flex-col items-start ml-5">
-			<h1 class="text-3xl text-white font-bold mt-5">
-				LimpEco<span class="text-base text-gray-400 ml-2">(2025)</span>
-			</h1>
+          <a href="https://github.com/wyn-code/car_dealer_API"
+             target="_blank"
+             class="h-10 w-10 flex items-center justify-center rounded-full
+                    border border-green-800 bg-[#112319]/95
+                    transition hover:scale-110 duration-300">
+            <Image src={githubImg2} alt="Github" width={20} height={20} />
+          </a>
 
-			<p class="text-lg text-gray-400 mt-1 max-w-3xl">
-				Landing page desarrollada para un cliente, orientada a promocionar un servicio de limpieza de manera clara y directa.
-				La página presenta los servicios ofrecidos, beneficios, llamados a la acción y datos de contacto, con un diseño simple y responsivo, enfocada en la captación de clientes y la presencia online del negocio.
-			</p>
+          <a href="https://car-dealer-proyect.vercel.app/"
+             target="_blank"
+             class="h-10 w-10 flex items-center justify-center rounded-full
+                    border border-green-800 bg-[#112319]/95
+                    transition hover:scale-110 duration-300">
+            <Image src={linkImg} alt="Link" width={20} height={20} />
+          </a>
 
-				<div class="flex justify-between items-center gap-2 mt-3 w-215">
-					<span class="inline-flex h-10 px-4 items-center rounded-full border border-green-800 bg-[#112319]/95 text-white">
-						React
-					</span>
-					<span class="inline-flex h-10 px-4 items-center rounded-full border border-green-800 bg-[#112319]/95 text-white">
-						Nextjs
-					</span>
-					<span class="inline-flex h-10 px-4 items-center rounded-full border border-green-800 bg-[#112319]/95 text-white">
-						.NET
-					</span>
-					<span class="inline-flex h-10 px-4 items-center rounded-full border border-green-800 bg-[#112319]/95 text-white">
-						MySQL
-					</span>
+        </div>
+      </div>
 
-					<div class="ml-auto flex gap-2">
-						<div class="h-10 w-10 flex items-center justify-center rounded-full border border-green-800 bg-[#112319]/95">
-							<Image src={githubImg2} alt="Github" width={22} height={22} />
-						</div>
-
-						<div class="h-10 w-10 flex items-center justify-center rounded-full border border-green-800 bg-[#112319]/95">
-							<Image src={linkImg} alt="Link" width={22} height={22} />
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-<div>
-		<div class="flex justify-center items-center font-mono">
-			
-  		<div class="bg-neutral-900 w-4xl h-70 rounded-2xl border border-neutral-700 mt-5">
-
-			<div class="flex flex-col items-start ml-5">
-			<h1 class="text-3xl text-white font-bold mt-5">
-				Gestor de usuarios<span class="text-base text-gray-400 ml-2">(2025)</span>
-			</h1>
-
-			<p class="text-lg text-gray-400 mt-1 max-w-3xl">
-				Gestor de usuarios desarrollado en Windows Forms, que consume una API de usuarios para realizar operaciones CRUD completas (crear, leer, modificar y eliminar).
-				El sistema implementa cifrado de contraseñas para proteger la información sensible y aplica buenas prácticas de desarrollo backend orientadas a seguridad y mantenimiento del código.
-			</p>
-
-				<div class="flex justify-between items-center gap-2 mt-3 w-215">
-					<span class="inline-flex h-10 px-4 items-center rounded-full border border-green-800 bg-[#112319]/95 text-white">
-						React
-					</span>
-					<span class="inline-flex h-10 px-4 items-center rounded-full border border-green-800 bg-[#112319]/95 text-white">
-						Nextjs
-					</span>
-					<span class="inline-flex h-10 px-4 items-center rounded-full border border-green-800 bg-[#112319]/95 text-white">
-						.NET
-					</span>
-					<span class="inline-flex h-10 px-4 items-center rounded-full border border-green-800 bg-[#112319]/95 text-white">
-						MySQL
-					</span>
-
-					<div class="ml-auto flex gap-2">
-						<div class="h-10 w-10 flex items-center justify-center rounded-full border border-green-800 bg-[#112319]/95">
-							<Image src={githubImg2} alt="Github" width={22} height={22} />
-						</div>
-
-						<div class="h-10 w-10 flex items-center justify-center rounded-full border border-green-800 bg-[#112319]/95">
-							<Image src={linkImg} alt="Link" width={22} height={22} />
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-</section>
-	<div>
-			<div class="flex justify-center items-center ml-7 mt-10">
-				<h1 class="text-white text-3xl m-10 font-semibold">Formación</h1>
-			</div>
-
-			<div class="flex justify-center items-center font-mono">
-				
-			<div class="bg-neutral-900 w-4xl rounded-2xl border border-neutral-700">
-
-				<div class="flex flex-col items-start ml-5">
-					<h1 class="text-3xl text-white font-bold mt-5">
-						UTN - Tecnicatura en Programación <span class="text-base text-gray-400">(2023-2025)</span>
-					</h1>
-
-					<p class="text-lg text-gray-400 mt-1 max-w-3xl mb-2">
-						Formación técnica universitaria enfocada en el desarrollo integral de software, donde adquirí sólidos conocimientos en programación estructurada y orientada a objetos, algoritmos y estructuras de datos, bases de datos relacionales, y arquitectura y estructura de software.
-						A lo largo de la carrera trabajé con diseño e implementación de sistemas, aplicando patrones de diseño, buenas prácticas de programación, metodologías de desarrollo de software, análisis de requerimientos y resolución de problemas computacionales, con un fuerte enfoque práctico y académico.
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div>
-			<div class="flex justify-center items-center font-mono">
-				
-			<div class="bg-neutral-900 w-4xl rounded-2xl border border-neutral-700 mt-5">
-
-				<div class="flex flex-col items-start ml-5">
-					<h1 class="text-3xl text-white font-bold mt-5 wrap-break-word">
-						UTN.ba - Experto Universitario en Hacking <br>Ethico <span class="text-base text-gray-400">(en desarrollo...)</span>
-					</h1>
-
-					<p class="text-lg text-gray-400 mt-1 max-w-3xl mb-2">
-						formación universitaria orientada a seguridad informática y hacking ético, centrada en identificar vulnerabilidades en sistemas, redes y aplicaciones de forma legal y ética. El programa aborda conceptos de criptografía, análisis de vulnerabilidades, tests de penetración, diseño seguro de redes y mitigación de amenazas, con materiales teóricos y prácticos ofrecidos a través de un campus virtual online.
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div>
-		<div class="flex justify-center items-center font-mono">
-				
-		<div class="bg-neutral-900 w-4xl rounded-2xl border border-neutral-700 mt-5">
-
-				<div class="flex flex-col items-start ml-5">
-					<h1 class="text-3xl text-white font-bold mt-5">
-						Harvard - CS50 <span class="text-base text-gray-400">(2026)</span>
-					</h1>
-
-					<p class="text-lg text-gray-400 mt-1 max-w-3xl mb-2">
-						curso introductorio a la ciencia de la computación y la programación impartido por la Universidad de Harvard, diseñado tanto para principiantes como para quienes ya tienen experiencia básica. Abarcando conceptos claves como pensamiento computacional, algoritmos, estructuras de datos, diseño de software y desarrollo web utilizando lenguajes como C, Python, SQL, HTML, CSS y JavaScript. A través de problem sets prácticos y un proyecto final, enseña a resolver problemas de forma lógica y eficiente y brinda una sólida base para estudios avanzados en tecnología.
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div>
-		<div class="flex justify-center items-center font-mono">
-				
-		<div class="bg-neutral-900 w-4xl rounded-2xl border border-neutral-700 mt-5">
-
-				<div class="flex flex-col items-start ml-5">
-					<h1 class="text-3xl text-white font-bold mt-5">
-						Udemy - Python TOTAL <span class="text-base text-gray-400">(2025)</span>
-					</h1>
-
-					<p class="text-lg text-gray-400 mt-1 max-w-3xl mb-2">
-						curso intensivo que enseña programación en Python desde cero hasta un nivel avanzado en un formato de estudio estructurado en 16 días, con más de 30 h de contenido, ejercicios prácticos y proyectos reales. El programa abarca desde los fundamentos del lenguaje (sintaxis, estructuras, funciones) hasta programación orientada a objetos (OOP) y aplicaciones prácticas en ámbitos como juegos, interfaces gráficas, web scraping, desarrollo web, Data Science, Machine Learning e Inteligencia Artificial.
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div>
-		<div class="flex justify-center items-center font-mono">
-				
-		<div class="bg-neutral-900 w-4xl h-70 rounded-2xl border border-neutral-700 mt-5">
-
-				<div class="flex flex-col items-start ml-5">
-					<h1 class="text-3xl text-white font-bold mt-5">
-						TodoCode - Certificación de Base de Datos Relacionales <span class="text-base text-gray-400">(2024)</span>
-					</h1>
-
-					<p class="text-lg text-gray-400 mt-1 max-w-3xl">
-						Curso introductorio de bases de datos relacionales de TodoCode: formación orientada a comprender los fundamentos de bases de datos relacionales usando MySQL, incluyendo modelado de datos, diseño de tablas y relaciones (como claves primarias y foráneas), y la ejecución de consultas SQL básicas, como SELECT, INSERT, UPDATE y DELETE para interactuar con la información de forma práctica y estructurada.
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div>
-		<div class="flex justify-center items-center font-mono">
-				
-		<div class="bg-neutral-900 w-4xl rounded-2xl border border-neutral-700 mt-5">
-
-				<div class="flex flex-col items-start ml-5">
-					<h1 class="text-3xl text-white font-bold mt-5">
-						Academia Numen - Diplomatura en Desarrollo Web Full Stack <span class="text-base text-gray-400">(2024)</span>
-					</h1>
-
-					<p class="text-lg text-gray-400 mt-1 max-w-3xl mb-2">
-						Diplomatura Full Stack Web de la Academia Numen: formación intensiva de aproximadamente 8 meses que cubre desde los fundamentos de HTML, CSS y JavaScript hasta la creación de aplicaciones web completas utilizando el stack MERN (MongoDB, Express, React y Node.js). Incluye tanto desarrollo de frontend como backend, manejo de bases de datos y APIs, y está diseñada para enseñar a construir sitios dinámicos y escalables aplicando buenas prácticas de desarrollo web.
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-<section>
-	
-</section>
-<footer>
-	<hr class="text-white mt-10">
-	<div class="m-10 flex items-center justify-between">
-		<div class="flex items-center">
-			<Image src={ubicacionImg} alt="Imagen de ubicación" width={20} height={20}></Image>
-			<p class="text-white ml-2">Buenos Aires, Argentina</p>
-		</div>
-		<p class="text-white">Copyright-2026</p>
-		<div class="flex items-center">
-
-		<div class="
-			transition-transform
-			group-hover:scale-90
-			hover:scale-125
-			hover:shadow-2xl
-			duration-500 ease-out
-			group-hover:opacity-70 hover:opacity-100
-			hover:z-10
-			">
-			<a href="https://mail.google.com/mail/?view=cm&to=brunoo6.massocco@gmail.com" target="_blank">
-				<Image src={gmailImg2} alt="Imagen de Gmail" width={35} height={35} class="m-2"/>
-			</a>
-		</div>
-
-		<div class="
-			transition-transform
-			group-hover:scale-90
-			hover:scale-125
-			hover:shadow-2xl
-			duration-500 ease-out
-			group-hover:opacity-70 hover:opacity-100
-			hover:z-10
-			">
-			<a href="https://www.linkedin.com/in/bruno-massocco-49b113307/" target="_blank">
-				<Image src={linkedinImg2} alt="Imagen de LinkedIn" width={35} height={35} class="m-2"/>
-			</a>
-		</div>
-		<div class="
-			transition-transform
-			group-hover:scale-90
-			hover:scale-125
-			hover:shadow-2xl
-			duration-500 ease-out
-			group-hover:opacity-70 hover:opacity-100
-			hover:z-10
-			">
-			<a href="https://github.com/wyn-code" target="_blank" rel="noopener noreferrer">
-				<Image src={githubImg2} alt="Imagen de Github" width={35} height={35} class="m-2"/>
-			</a>
-		</div>
+    </div>
   </div>
 </div>
+
+	 <div class="bg-neutral-900 rounded-2xl border border-neutral-700 p-6 font-mono">
+
+  <h3 class="text-xl sm:text-2xl text-white font-bold">
+    LimpEco
+    <span class="text-sm text-gray-400">(2025)</span>
+  </h3>
+
+  <p class="text-gray-400 mt-3 text-sm sm:text-base leading-relaxed">
+    Landing page desarrollada para un cliente, orientada a promocionar un servicio de limpieza de manera clara y directa.
+				La página presenta los servicios ofrecidos, beneficios, llamados a la acción y datos de contacto, con un diseño simple y responsivo, enfocada en la captación de clientes y la presencia online del negocio.
+  </p>
+
+  <div class="mt-5 flex flex-col sm:flex-row sm:items-center gap-4">
+
+    <div class="flex flex-wrap gap-3">
+      {["Astro","JavaScript","Tailwind"].map(t => (
+        <span class="px-3 py-1 rounded-full text-sm bg-[#112319]/95 border border-green-800 text-white">
+          {t}
+        </span>
+      ))}
+    </div>
+
+    <div class="flex gap-3 sm:ml-auto">
+
+      <a href="https://github.com/wyn-code/limpEco"
+         target="_blank"
+         class="h-10 w-10 flex items-center justify-center rounded-full
+                border border-green-800 bg-[#112319]/95
+                transition hover:scale-110 duration-300">
+        <Image src={githubImg2} alt="Github" width={20} height={20} />
+      </a>
+
+      <a href="https://limp-eco.vercel.app/"
+         target="_blank"
+         class="h-10 w-10 flex items-center justify-center rounded-full
+                border border-green-800 bg-[#112319]/95
+                transition hover:scale-110 duration-300">
+        <Image src={linkImg} alt="Link" width={20} height={20} />
+      </a>
+
+    </div>
+  </div>
+
+</div>
+
+	  <div class="bg-neutral-900 rounded-2xl border border-neutral-700 p-6 font-mono">
+
+  <h3 class="text-xl sm:text-2xl text-white font-bold">
+    Gestor de usuarios
+    <span class="text-sm text-gray-400">(2025)</span>
+  </h3>
+
+  <p class="text-gray-400 mt-3 text-sm sm:text-base leading-relaxed">
+    Gestor de usuarios desarrollado en Windows Forms, que consume una API de usuarios para realizar operaciones CRUD completas (crear, leer, modificar y eliminar).
+			El sistema implementa cifrado de contraseñas para proteger la información sensible y aplica buenas prácticas de desarrollo backend orientadas a seguridad y mantenimiento del código.
+  </p>
+
+  <div class="mt-5 flex flex-col sm:flex-row sm:items-center gap-4">
+
+    <div class="flex flex-wrap gap-3">
+      {[".NET","Windows Form","MySQL"].map(t => (
+        <span class="px-3 py-1 rounded-full text-sm bg-[#112319]/95 border border-green-800 text-white">
+          {t}
+        </span>
+      ))}
+    </div>
+
+    <div class="flex gap-3 sm:ml-auto">
+
+      <a href="https://github.com/wyn-code/data_base"
+         target="_blank"
+         class="h-10 w-10 flex items-center justify-center rounded-full
+                border border-green-800 bg-[#112319]/95
+                transition hover:scale-110 duration-300">
+        <Image src={githubImg2} alt="Github" width={20} height={20} />
+      </a>
+
+      <a 
+         target="_blank"
+         class="h-10 w-10 flex items-center justify-center rounded-full
+                border border-green-800 bg-[#112319]/95
+                transition hover:scale-110 duration-300 opacity-60">
+        <Image src={linkImg} alt="Link" width={20} height={20} />
+      </a>
+
+    </div>
+  </div>
+
+</div>
+
+</section>
+
+<section class="px-4 sm:px-6 lg:px-8 mt-20">
+
+	  <div class="max-w-6xl mx-auto space-y-8">
+			<h2 class="text-white text-2xl sm:text-3xl font-semibold text-center">
+				Formación
+    		</h2>
+
+		<div class="bg-neutral-900 rounded-2xl border border-neutral-700 p-6 font-mono">
+			<h3 class="text-xl sm:text-2xl text-white font-bold">UTN - Tecnicatura en Programación
+				<span class="text-sm text-gray-400">(2023-2025)</span>
+			</h3>
+
+			<p class="text-gray-400 mt-3 text-sm sm:text-base leading-relaxed">
+				Formación técnica universitaria enfocada en el desarrollo integral de software, donde adquirí sólidos conocimientos en programación estructurada y orientada a objetos, algoritmos y estructuras de datos, bases de datos relacionales, y arquitectura y estructura de software.
+				A lo largo de la carrera trabajé con diseño e implementación de sistemas, aplicando patrones de diseño, buenas prácticas de programación, metodologías de desarrollo de software, análisis de requerimientos y resolución de problemas computacionales, con un fuerte enfoque práctico y académico.
+			</p>
+		</div>
+
+		<div class="bg-neutral-900 rounded-2xl border border-neutral-700 p-6 font-mono">
+			<h3 class="text-xl sm:text-2xl text-white font-bold">UTN.ba - Experto Universitario en Hacking <br>Ethico
+				<span class="text-sm text-gray-400">(en proceso...)</span>
+			</h3>
+
+			<p class="text-gray-400 mt-3 text-sm sm:text-base leading-relaxed">
+				Formación universitaria orientada a seguridad informática y hacking ético, centrada en identificar vulnerabilidades en sistemas, redes y aplicaciones de forma legal y ética. El programa aborda conceptos de criptografía, análisis de vulnerabilidades, tests de penetración, diseño seguro de redes y mitigación de amenazas, con materiales teóricos y prácticos ofrecidos a través de un campus virtual online.
+			</p>
+		</div>
+
+		<div class="bg-neutral-900 rounded-2xl border border-neutral-700 p-6 font-mono">
+			<h3 class="text-xl sm:text-2xl text-white font-bold">Harvard - CS50
+				<span class="text-sm text-gray-400">(2026)</span>
+			</h3>
+
+			<p class="text-gray-400 mt-3 text-sm sm:text-base leading-relaxed">
+				Curso introductorio a la ciencia de la computación y la programación impartido por la Universidad de Harvard, diseñado tanto para principiantes como para quienes ya tienen experiencia básica. Abarcando conceptos claves como pensamiento computacional, algoritmos, estructuras de datos, diseño de software y desarrollo web utilizando lenguajes como C, Python, SQL, HTML, CSS y JavaScript. A través de problem sets prácticos y un proyecto final, enseña a resolver problemas de forma lógica y eficiente y brinda una sólida base para estudios avanzados en tecnología.
+			</p>
+		</div>
+
+		<div class="bg-neutral-900 rounded-2xl border border-neutral-700 p-6 font-mono">
+			<h3 class="text-xl sm:text-2xl text-white font-bold">Udemy - Python TOTAL
+				<span class="text-sm text-gray-400">(2025)</span>
+			</h3>
+
+			<p class="text-gray-400 mt-3 text-sm sm:text-base leading-relaxed">
+				Curso intensivo que enseña programación en Python desde cero hasta un nivel avanzado en un formato de estudio estructurado en 16 días, con más de 30 h de contenido, ejercicios prácticos y proyectos reales. El programa abarca desde los fundamentos del lenguaje (sintaxis, estructuras, funciones) hasta programación orientada a objetos (OOP) y aplicaciones prácticas en ámbitos como juegos, interfaces gráficas, web scraping, desarrollo web, Data Science, Machine Learning e Inteligencia Artificial.
+			</p>
+		</div>
+
+		<div class="bg-neutral-900 rounded-2xl border border-neutral-700 p-6 font-mono">
+			<h3 class="text-xl sm:text-2xl text-white font-bold">TodoCode - Certificación de Base de Datos Relacionales
+				<span class="text-sm text-gray-400">(2024)</span>
+			</h3>
+
+			<p class="text-gray-400 mt-3 text-sm sm:text-base leading-relaxed">
+				Curso introductorio de bases de datos relacionales de TodoCode: formación orientada a comprender los fundamentos de bases de datos relacionales usando MySQL, incluyendo modelado de datos, diseño de tablas y relaciones (como claves primarias y foráneas), y la ejecución de consultas SQL básicas, como SELECT, INSERT, UPDATE y DELETE para interactuar con la información de forma práctica y estructurada.
+			</p>
+		</div>
+
+		<div class="bg-neutral-900 rounded-2xl border border-neutral-700 p-6 font-mono">
+			<h3 class="text-xl sm:text-2xl text-white font-bold">Academia Numen - Diplomatura en Desarrollo Web Full Stack 
+				<span class="text-sm text-gray-400">(2024)</span>
+			</h3>
+
+			<p class="text-gray-400 mt-3 text-sm sm:text-base leading-relaxed">
+				Diplomatura Full Stack Web de la Academia Numen: formación intensiva de aproximadamente 8 meses que cubre desde los fundamentos de HTML, CSS y JavaScript hasta la creación de aplicaciones web completas utilizando el stack MERN (MongoDB, Express, React y Node.js). Incluye tanto desarrollo de frontend como backend, manejo de bases de datos y APIs, y está diseñada para enseñar a construir sitios dinámicos y escalables aplicando buenas prácticas de desarrollo web.
+			</p>
+		</div>
+
+	</div>
+</section>
+
+<footer class="mt-20 border-t border-neutral-700 px-4 sm:px-6 lg:px-8 py-8">
+  <div class="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-6">
+
+    <div class="flex items-center gap-2">
+      <Image src={ubicacionImg} alt="Ubicación" width={20} height={20}/>
+      <p class="text-white text-sm">Buenos Aires, Argentina</p>
+    </div>
+
+    <p class="text-white text-sm">Copyright © 2026</p>
+
+    <div class="flex gap-4">
+      <Image src={gmailImg2} alt="gmail" width={28} height={28}/>
+      <Image src={linkedinImg2} alt="linkedin" width={28} height={28}/>
+      <Image src={githubImg2} alt="github" width={28} height={28}/>
+    </div>
+
+  </div>
 </footer>
